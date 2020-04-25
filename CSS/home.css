@@ -1,0 +1,147 @@
+body {
+	background-image: url(../Images/theStarOcean.jpg); /* The background the page is using */
+	height: 1080px;
+	background-repeat: no-repeat; /* Don't tile */
+	background-size: cover; /* Fit all the way on screen (also prevents scaling background up/down?) */
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 4.5em;
+	color: #FFF;
+}
+
+/* div tag styles */
+div.Glow {
+  text-shadow: 0 0 40px #0F148C; /* Give it a slight blue glow, a reference to SO 3's box art */
+} /* End p tag styles */
+
+/* a tag styles */
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:visited {
+	color: #FFFF00;
+}
+
+a:hover {
+	color: #FF8000;
+} /* End a tag styles */
+
+/* img tag styles */
+img.WelchVineyard {
+	width: 566.8771px;
+	height: 1000px;
+	display: block;
+	animation-name: welchVineyardReflection;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+img.StarOceanLogo {
+	width: 300px;
+}
+
+img.TriAceLogo {
+	width: 300px;
+	margin-left: 20px;
+}
+
+img.StarOceanLogo:hover {
+	opacity: 0.5;
+}
+
+img.TriAceLogo:hover {
+	opacity: 0.5;
+}
+
+img.FacebookLogo:hover {
+	opacity: 0.5;
+}
+
+img.TwitterLogo:hover {
+	opacity: 0.5;
+}
+
+img.YoutubeLogo:hover {
+	opacity: 0.5;
+}
+
+img.FacebookLogo {
+	width: 200px;
+}
+
+img.TwitterLogo {
+	width: 200px;
+}
+
+img.YoutubeLogo {
+	width: 200px;
+} /* End img tag styles */
+
+
+/* Rules for the about button */
+#about {
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+/* Rules for the menu button */
+#menu {
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+/* Rules for the nutrition facts button */
+#nutritionFacts {
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+/* Rules for Welch Vineyard image */
+#welchVineyard {
+	margin-top: -710px;
+	margin-left: 750px;
+}
+
+/* Rules for welcome message */
+#welcomeMessage {
+	margin-left: 25px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+/* Rules for Star OCean and Tri-Ace buttons */
+#starOceanAndTriace {
+	margin-left: 25px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+/* Rules for Facebook logo */
+#facebookLogo {
+	display: block;
+	margin-left: 1550px;
+	margin-top: -600px;
+}
+
+/* Rules for Twitter logo */
+#twitterLogo {
+	display: block;
+	margin-left: 1550px;
+	margin-top: 100px;
+}
+
+/* Rules for Youtube logo */
+#youtubeLogo {
+	display: block;
+	margin-left: 1550px;
+	margin-top: 100px;
+}
+
+/* Animations */
+@keyframes welchVineyardReflection {
+	0% { transform: scaleX(1); }
+	50% { transform: scaleX(-1); }
+	100% { transform: scaleX(1); }
+}
