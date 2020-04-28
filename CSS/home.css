@@ -1,5 +1,5 @@
 body {
-	background-image: url(../Images/theStarOcean.jpg); /* The background the page is using */
+	background-image: url("../Images/theStarOcean.jpg"); /* The background the page is using */
 	height: 1080px;
 	background-repeat: no-repeat; /* Don't tile */
 	background-size: cover; /* Fit all the way on screen (also prevents scaling background up/down?) */
@@ -66,15 +66,7 @@ img.YoutubeLogo:hover {
 	opacity: 0.5;
 }
 
-img.FacebookLogo {
-	width: 200px;
-}
-
-img.TwitterLogo {
-	width: 200px;
-}
-
-img.YoutubeLogo {
+img.FacebookLogo, img.TwitterLogo, img.YoutubeLogo {
 	width: 200px;
 } /* End img tag styles */
 
