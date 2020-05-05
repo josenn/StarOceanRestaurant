@@ -3,6 +3,7 @@
 
 /* Organize all this and make it super clean and dope */
 
+/* font face rules */
 @font-face {
 	font-family: Baskerville;
 	src: url("../Fonts/LibreBaskerville-Regular.ttf");
@@ -11,9 +12,9 @@
 @font-face {
 	font-family: Plantin;
 	src: url("../Fonts/Plantin.otf");
-}
+} /* End font face rules */
 
-
+/* dropdown begin */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -36,12 +37,13 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
+} /* dropdown end */
 
+/* body tag styles */
 body {
 	height: 100%;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+} /* End body tag styles */
 
 div.TopBackgroundContainer {
 	font-family: Baskerville, Plantin, serif;
@@ -49,7 +51,6 @@ div.TopBackgroundContainer {
 
 /* div tag styles */
 div.MenuBackgroundContainer {
-	/*background-color:  #E59A68;*/
 	margin-left: -10px;
 	margin-top: 40px;
 	margin-right: -10px;
@@ -120,7 +121,7 @@ div.EntreeText {
 	color: #66B3FF;
 	font-size: 2em;
 	margin-left: 240px;
-}
+} /* End div tag styles */
 
 /* a tag styles */
 a.TopBuyNowButton {
@@ -161,6 +162,7 @@ span.TriaCafe {
 	margin-left: 50px;
 }
 
+/* Rules for the entrees section */
 #entrees {
 	margin-left: 700px;
 	margin-top: -495px;
