@@ -1,9 +1,26 @@
+/* Let's go through here and comment things more to make sure I know what everything does etc */
+/* Impact for headings and important info, baskerville for paragraph-esque things */
+
+/* Organize all this and make it super clean and dope */
+
+@font-face {
+	font-family: Baskerville;
+	src: url("../Fonts/LibreBaskerville-Regular.ttf");
+}
+
+@font-face {
+	font-family: Plantin;
+	src: url("../Fonts/Plantin.otf");
+}
+
+
 .dropdown {
     position: relative;
     display: inline-block;
 	font-size: 1.5em;
-	margin-left: 1400px;
+	margin-left: 1200px;
 	padding-top: 20px;
+	font-family: Baskerville, Plantin, serif;
 	color: #FF8800;
 }
 
@@ -22,7 +39,12 @@
 }
 
 body {
+	height: 100%;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.TopBackgroundContainer {
+	font-family: Baskerville, Plantin, serif;
 }
 
 /* div tag styles */
@@ -51,6 +73,8 @@ div.MenuBackgroundTopText {
 
 div.StoneGolemTransparent {
 	opacity: 0;
+	position: relative;
+	z-index: -1;
 }
 
 div.StoneGolemOpaque {
@@ -58,11 +82,90 @@ div.StoneGolemOpaque {
 	margin-left: 900px;
 }
 
+div.AppetizersAndEntrees {
+	margin-top: 270px;
+	margin-left: -10px;
+	margin-right: -10px;
+	background-image: url("../Images/png/ichigoni.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 540px;
+	opacity: 1;
+}
+
+div.AppetizerHeading {
+	margin-left: 260px;
+	margin-top: -10px;
+	color: #FF8800;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 6em;
+}
+
+div.AppetizersText {
+	margin-left: 200px;
+	font-family: Baskerville, Plantin, serif;
+	color: #66B3FF;
+	font-size: 2em;
+}
+
+div.EntreeHeading {
+	margin-left: 300px;
+	margin-top: -10px;
+	color: #FF8800;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 6em;
+}
+div.EntreeText {
+	font-family: Baskerville, Plantin, serif;
+	color: #66B3FF;
+	font-size: 2em;
+	margin-left: 240px;
+}
+
 /* a tag styles */
+a.TopBuyNowButton {
+	text-decoration: none;
+	border: 3px solid #000;
+	color: #000;
+	font-size: 1.5em;
+}
+
 a.About, a.NutritionFacts, a.Home {
 	text-decoration: none;
 }
 
-a:link {
+a.TopBuyNowButton:visited {
 	color: #000;
+}
+
+a.TopBuyNowButton:hover {
+	background-color: #000;
+	color: #FFF;
+	transition: background-color, .5s;
+	transition: color, .5s;
+} /* End a tag styles */
+
+/* span tag styles */
+span.TriaCafe {
+	font-size: 2em;
+} /* End span tag styles */
+
+/* Rules for the buy now button */
+#topBuyNowButton {
+	margin-left: 1600px;
+	margin-top: -30px
+}
+
+/* Rules for the appetizers section */
+#appetizers {
+	margin-left: 50px;
+}
+
+#entrees {
+	margin-left: 700px;
+	margin-top: -495px;
+}
+
+#drinks {
+
 }
