@@ -1,18 +1,29 @@
+@font-face {
+	font-family: Baskerville;
+	src: url("../Fonts/LibreBaskerville-Regular.ttf");
+}
+
+@font-face {
+	font-family: Plantin;
+	src: url("../Fonts/Plantin.otf");
+}
+
 body {
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 /* p tag styles */
 p.AboutUsText {
 	font-size: 1.5em;
+	display: inline;
+	text-align: top;
+	font-family: Baskerville, Plantin, serif;
 }
 
 /* img tag styles */
-img.ReimiAttackingEnemy {
-	width: 1900px;
-	height: 500px;
-	margin-top: 700px;
-	margin-left: -10px;
+img.FacebookLogo {
+	width: 50px;
+	height: 50px;
 }
 
 #aboutUsBackground {
@@ -22,6 +33,7 @@ img.ReimiAttackingEnemy {
 	margin-top: -10px;
 	text-align: center;
 	color: #FFF;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 6em;
 }
 
@@ -34,6 +46,36 @@ img.ReimiAttackingEnemy {
 	margin-top: -720px;
 }
 
-#aboutMenuText {
-	
+#MainNav {
+  list-style-type: none;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: Baskerville, Plantin, serif;
+}
+
+#MainNav li {
+  float: left;
+}
+
+#MainNav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px; /* First # is for top and bottom Second # is for left and right*/
+  text-decoration: none;
+  font-size: 2em;
+}
+
+#MainNav a:hover {
+  background-color: #FF8000;
+}
+
+p.CopyrightText {
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #FFF;
 }
