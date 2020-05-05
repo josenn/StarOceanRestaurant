@@ -1,6 +1,6 @@
 body {
 	background-image: url("../Images/theStarOcean.jpg"); /* The background the page is using */
-	height: 1080px;
+	/*height: 1080px;*/
 	background-repeat: no-repeat; /* Don't tile */
 	background-size: cover; /* Fit all the way on screen (also prevents scaling background up/down?) */
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -11,7 +11,7 @@ body {
 /* div tag styles */
 div.Glow {
   text-shadow: 0 0 40px #0F148C; /* Give it a slight blue glow, a reference to SO 3's box art */
-} /* End p tag styles */
+} /* End div tag styles */
 
 /* a tag styles */
 a {
@@ -46,30 +46,13 @@ img.TriAceLogo {
 	margin-left: 20px;
 }
 
-img.StarOceanLogo:hover {
-	opacity: 0.5;
-}
-
-img.TriAceLogo:hover {
-	opacity: 0.5;
-}
-
-img.FacebookLogo:hover {
-	opacity: 0.5;
-}
-
-img.TwitterLogo:hover {
-	opacity: 0.5;
-}
-
-img.YoutubeLogo:hover {
+img.StarOceanLogo:hover, img.TriAceLogo:hover, img.FacebookLogo:hover, img.TwitterLogo:hover, img.YoutubeLogo:hover {
 	opacity: 0.5;
 }
 
 img.FacebookLogo, img.TwitterLogo, img.YoutubeLogo {
 	width: 200px;
 } /* End img tag styles */
-
 
 /* Rules for the about button */
 #about {
@@ -103,7 +86,7 @@ img.FacebookLogo, img.TwitterLogo, img.YoutubeLogo {
 	position: relative;
 }
 
-/* Rules for Star OCean and Tri-Ace buttons */
+/* Rules for Star Ocean and Tri-Ace buttons */
 #starOceanAndTriace {
 	margin-left: 25px;
 	margin-top: 30px;
