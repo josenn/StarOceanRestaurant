@@ -2,39 +2,65 @@
 <html lang="en-US">
 
 <head>
-	<title> Tria - Menu</title>
+	<title> Tria Cafe - Menu</title>
 	<link rel="stylesheet" type="text/css" href="..\CSS\menu.css">
 </head>
 
 <body>
-	<div class="dropdown">
-		<span>Site Navigation</span>
-		<div class="dropdown-content">
-			<a class="About" href="../HTML/about.html" target="_blank">About</a><br  />
-			<a class="NutritionFacts" href="../HTML/nutritionFacts.html" target="_blank">Nutrition Facts</a> <br />
-			<a class="Home" href="../index.html" target="_blank">Home</a>
+	<div class="TopBackgroundContainer">
+		<span class="TriaCafe">Tria Cafe</span>
+		<div class="dropdown">
+			<span>Site Navigation</span>
+			<div class="dropdown-content">
+				<a class="Home" href="../index.html" target="_blank">Home</a> <br />
+				<a class="About" href="../HTML/about.html" target="_blank">About</a><br />
+				<a class="NutritionFacts" href="../HTML/nutritionFacts.html" target="_blank">Nutrition Facts</a>
+			</div>
+		</div>
+		<div id="topBuyNowButton">
+			<a class="TopBuyNowButton" href="">Buy Now</a>
 		</div>
 	</div>
 
 	<div class="MenuBackgroundContainer">
 		<div class="MenuBackgroundTop">
 			<div class="StoneGolemTransparent">
-				<img src="../Images/png/starOcean4StoneGolem.png" />
+				<img src="../Images/png/starOcean4StoneGolem.png" draggable="false"/>
 			</div>
 		</div>
 		<div class="StoneGolemTransparent">
-			<img src="../Images/png/starOcean4StoneGolem.png" />
+			<img src="../Images/png/starOcean4StoneGolem.png" draggable="false"/>
 		</div>
 
 		<div class="StoneGolemOpaque">
 			<img src="../Images/png/starOcean4StoneGolem.png" />
 		</div>
 		<div class="MenuBackgroundTopText">
-			<p style="display: inline;">
-				Restaurant Menu
-			</p>
+			<span>Restaurant Menu</span>
 		</div>
+	</div>
 
+	<div class="AppetizersAndEntrees">
+		<div id="appetizers">
+			<div class="AppetizerHeading">Appetizers</div><br />
+			<div class="AppetizersText">
+				<span>Some menu text</span><br  /><br />
+				<span>Some menu text</span><br  /><br  />
+				<span>Some menu text</span><br  /><br  />
+				<span>Some menu text</span><br  /><br  />
+				<span>Some menu text</span>
+			</div>
+		</div>
+		<div id="entrees">
+			<div class="EntreeHeading">Entrees</div><br />
+			<div class="EntreeText">
+				<span>Some menu text</span><br  /><br />
+				<span>Some menu text</span><br  /><br  />
+				<span>Some menu text</span><br  /><br  />
+				<span>Some menu text</span><br  /><br  />
+				<span>Some menu text</span>
+			</div>
+		</div>
 	</div>
 </body>
 
